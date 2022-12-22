@@ -1,0 +1,13 @@
+{
+  "spec_dir": "dist/test",
+  "spec_files": [
+    "**/*test.js"
+  ],
+  "helpers": [
+    "helpers/**/*.js"
+  ],
+  "env": {
+    "stopSpecOnExpectationFailure": false,
+    "random": false
+  }
+}
