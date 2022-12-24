@@ -8,7 +8,7 @@ This repository contains the exercices for the Full Stack JavaScript course.
 
 - **Session 1**
   - [TypeScript - Types](./typescript-types)
-  - [TypeScript - Classes](./typescript-classes)
+  - [TypeScript - Classes](./typescript-types)
 - **Session 2**
   - [JavaScript Modules](./js-modules)
   - [Express and TypeScript](./express-ts)
