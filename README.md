@@ -6,12 +6,12 @@ This repository contains the exercices for the Full Stack JavaScript course.
 
 ## List of exercices
 
-- I. Session #1
-  - [x] I. [TypeScript - Types](./typescript-types)
-  - [x] II. [TypeScript - Classes](./typescript-classes)
-- II. Session #2
-  - [x] I. [JavaScript Modules](./js-modules)
-  - [x] II. [Express and TypeScript](./express-ts)
-- III. Session #3
-  - [x] I. [Node File System](./file-system)
-  - [x] II. [Setup and Configure Jasmine with TypeScript](./jasmine)
+- **Session 1**
+  - [TypeScript - Types](./typescript-types)
+  - [TypeScript - Classes](./typescript-classes)
+- **Session 2**
+  - [JavaScript Modules](./js-modules)
+  - [Express and TypeScript](./express-ts)
+- **Session 3**
+  - [Node File System](./file-system)
+  - [Setup and Configure Jasmine with TypeScript](./jasmine)
