@@ -1,0 +1,30 @@
+{
+  "name": "posgres-migrations",
+  "version": "1.0.0",
+  "description": "Just Another Express Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts --watch",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "typescript"
+  ],
+  "author": "Mahmoud Kassem",
+  "license": "ISC",
+  "dependencies": {
+    "db-migrate": "^0.11.13",
+    "db-migrate-pg": "^1.2.2",
+    "express": "^4.18.2",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
