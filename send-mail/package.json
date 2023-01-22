@@ -1,0 +1,40 @@
+{
+  "name": "jwt-auth",
+  "version": "1.0.0",
+  "description": "Just Another Express Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "db:up": "db-migrate up",
+    "db:down": "db-migrate reset",
+    "dev": "nodemon src/app.ts --watch",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "typescript"
+  ],
+  "author": "Mahmoud Kassem",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "db-migrate": "^0.11.13",
+    "db-migrate-pg": "^1.2.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "nodemailer": "^6.9.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.15",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/nodemailer": "^6.4.7",
+    "@types/pg": "^8.6.6",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}

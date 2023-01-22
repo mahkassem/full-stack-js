@@ -17,8 +17,11 @@ This repository contains the exercices for the Full Stack JavaScript course stud
   - [Setup and Configure Jasmine with TypeScript](./jasmine)
 - **Session 4**
   - [Database Migration](./postgres-migrations)
-- **Session 5**
+- **Session 5 & 6**
   - [JWT Auth](./jwt-auth)
+- ** Session 7**
+  - [Send Mail](./send-mail)
+  - [File Upload](./file-upload)
 
 ## Useful links
 
