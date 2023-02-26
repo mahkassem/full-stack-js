@@ -1,0 +1,11 @@
+<div>
+  <h1>Reactive Form</h1>
+  <form [formGroup]="form" (ngSubmit)="submitForm()">
+    <input type="text" class="form-control" id="name" formControlName="name">
+    <ng-container *ngIf="f.name.errors">
+      <p *ngIf="f.name.errors.required" style="color: red">The feield is required</p>
+      <p *ngIf="f.name.errors.minlength" style="color: red">Name should be at least 3 chars</p>
+    </ng-container>
+    <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Submit</button>
+  </form>
+</div>

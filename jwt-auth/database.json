@@ -5,9 +5,9 @@
         "password": {
             "ENV": "DB_PASSWORD"
         },
-        "host": "localhost",
+        "host": "db-udacity-28381.ctz64cimsxb0.us-east-1.rds.amazonaws.com",
         "database": "postgres",
-        "port": "6432"
+        "port": "5432"
     },
     "sql-file": true
 }

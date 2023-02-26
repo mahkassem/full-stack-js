@@ -1,0 +1,6 @@
+<ng-container *ngFor="let user of users">
+  <div *ngIf="user.age >= 25">
+    <h1>{{ user.name }}</h1>
+    <p [ngStyle]="{ color: user.age > 25 ? 'red' : 'green' }">Age is: {{ user.age }}</p>
+  </div>
+</ng-container>

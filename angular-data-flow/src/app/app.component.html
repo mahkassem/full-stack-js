@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let item of items">
+    <span (click)="selectItem(item)">{{ item.name }}</span>
+  </li>
+</ul>
+<app-item-details [item]="currentItem | async" (deleteEvent)="deleteItem($event)"></app-item-details>
