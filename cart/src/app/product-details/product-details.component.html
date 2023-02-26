@@ -1,0 +1,9 @@
+<div class="product-card">
+  <h2 class="product-title">{{ product.name }}</h2>
+  <h3 class="product-price">{{ product.price | currency }}</h3>
+  <p class="product-description">{{ product.description }}</p>
+  <div class="product-actions">
+    <input type="number" class="product-quantity" [(ngModel)]="qty" min="1" />
+    <button class="product-button" (click)="addToCart()">Add to cart</button>
+  </div>
+</div>

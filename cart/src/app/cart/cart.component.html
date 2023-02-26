@@ -1,0 +1,24 @@
+<table class="striped-table">
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>Quantity</th>
+      <th>Price</th>
+      <th>Subtotal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of items">
+      <td>{{item.name}}</td>
+      <td>{{item.qty}}</td>
+      <td>{{item.price | currency}}</td>
+      <td>{{(item.price * item.qty) | currency}}</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">Total</td>
+      <td>{{total | currency}}</td>
+    </tr>
+  </tfoot>
+</table>
