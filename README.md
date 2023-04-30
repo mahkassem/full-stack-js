@@ -19,7 +19,7 @@ This repository contains the exercices for the Full Stack JavaScript course stud
   - [Database Migration](./postgres-migrations)
 - **Session 5 & 6**
   - [JWT Auth](./jwt-auth)
-- ** Session 7**
+- **Session 7**
   - [Send Mail](./send-mail)
   - [File Upload](./file-upload)
 
